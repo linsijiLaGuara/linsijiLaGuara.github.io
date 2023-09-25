@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    font-family: 'Mooli', sans-serif;
+    color: #e7e7e7;
+}
+
+.portada {
+    border-style: solid;
+    border-color: rgb(92, 221, 238);
+    background-image: url("../img/portada.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    position: relative;
+}
+
+.portada::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4abece;
+    opacity: 0.5;
+}
+
+.titulo {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* Centra el contenido con transformaciones */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    z-index: 1;
+}
+
+.subtitulo {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.imagenredonda {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    border: 6px solid #e7e7e7;
+
+}
+
+.bg-geen {
+    background-color: #4abece;
+}
+
+.bg-footer {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.text-custom-color {
+    color: #e7e7e7;
+}
