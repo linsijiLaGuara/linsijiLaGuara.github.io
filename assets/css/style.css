@@ -70,3 +70,22 @@ body {
 .text-custom-color {
     color: #e7e7e7;
 }
+
+.title-color {
+    color: #0d0d0e;
+    font-size: 20px;
+}
+
+.icono-parrafo {
+    color: #707070;
+    font-size: 13px;
+}
+
+.text-secundario {
+    font-size: 20px;
+    color: #2a42c9;
+}
+
+.sub-titulos {
+    color: #212529;
+}
