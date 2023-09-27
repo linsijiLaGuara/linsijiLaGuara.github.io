@@ -72,20 +72,20 @@ body {
 }
 
 .title-color {
-    color: #0d0d0e;
+    color: #173b6c;
     font-size: 20px;
 }
-
+.sub-titulos {
+    color: #25292c;
+    font-size: 15px;
+}
 .icono-parrafo {
     color: #707070;
     font-size: 13px;
 }
 
 .text-secundario {
-    font-size: 20px;
+    font-size: 15px;
     color: #2a42c9;
 }
 
-.sub-titulos {
-    color: #212529;
-}
