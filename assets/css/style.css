@@ -77,10 +77,12 @@ body {
     color: #173b6c;
     font-size: 20px;
 }
+
 .sub-titulos {
     color: #25292c;
     font-size: 15px;
 }
+
 .icono-parrafo {
     color: #100e61;
     font-size: 13px;
@@ -91,3 +93,9 @@ body {
     color: #2a42c9;
 }
 
+.iconhabilidades {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
