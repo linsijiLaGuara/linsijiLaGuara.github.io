@@ -97,5 +97,8 @@ body {
     width: 64px;
     height: 64px;
     margin-bottom: 10px;
-  }
-  
+}
+
+.cont-habilidades {
+    background-color: #f2fdff;
+}
