@@ -102,3 +102,29 @@ body {
 .cont-habilidades {
     background-color: #f2fdff;
 }
+
+
+.cont-resumen {
+    border-style: solid;
+    border-color: rgb(92, 221, 238);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    position: relative;
+    color: #e7e7e7;
+
+}
+
+.cont-resumen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4abece;
+    opacity: 0.5;
+
+}
